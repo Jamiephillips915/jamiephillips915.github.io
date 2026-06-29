@@ -1,0 +1,92 @@
+.projectsTitle {
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.projectsTitle p {
+    position: relative;
+    left: 5%;
+    align-self: center;
+    font-size: 2.2em;
+    color: white;
+
+}
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 120%;
+    width: 100%;
+}
+
+.projectsRow {
+    display: flex;
+    min-width: 100%;
+    gap: 7.5%;
+}
+
+.projectsRow:first-of-type {
+    margin-bottom: 2.5%;
+    padding-left: 5%;
+}
+
+.projectsRow:last-of-type {
+    margin-top: 2.5%;
+    padding-right: 5%;
+}
+
+.projectItem {
+    display: flex;
+    flex-direction: column;
+    width: 42.5%;
+    min-height: 15em;
+    background-color: #75727294;
+    border: 1px solid rgba(191, 187, 187, 0.737);
+    border-radius: 10px;
+}
+
+.projectTitle {
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.projectTitle p {
+    position: relative;
+    align-self: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.projectDescription {
+    width: 100%;
+    padding-top: 2.5%;
+}
+
+.projectDescription p {
+    font-size: 0.8em;
+    color: white;
+    font-weight: 350;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.projectDivider {
+    height: 5%;
+    width: 90%;
+    margin-left: 5%;
+    border-top: 1.5px solid grey;
+}
+
+.projectSkillHolder {
+    display: flex;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 2.5%;
+    flex-wrap: wrap;
+}

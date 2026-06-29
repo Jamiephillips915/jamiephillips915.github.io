@@ -1,0 +1,379 @@
+.introductionDiv {
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+    width: 100%;
+    margin-top: 7.5%;
+    margin-bottom: 5%;
+}
+
+.introductionDiv>div {
+    width: 100%;
+}
+
+.introductionSubtitleDiv p {
+    padding-left: 5%;
+    font-size: 1.2em;
+    color: white;
+}
+
+.introductionTitleDiv {
+    display: flex;
+}
+
+.introductionTitleDiv p {
+    padding-left: 5%;
+    font-size: 3.5em;
+    color: #e616c6df;
+}
+
+.introductionUndertextDiv {
+    height: 20%;
+}
+
+.introductionUndertextDiv p {
+    padding-left: 7.5%;
+    font-size: 0.75em;
+    color: white;
+}
+
+.aboutMeDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.aboutMeDiv>div {
+    width: 100%;
+}
+
+.aboutMeTitleDiv {
+    display: flex;
+    height: fit-content;
+}
+
+.aboutMeTitleDiv p {
+    align-self: center;
+    padding-left: 5%;
+    font-size: 1.6em;
+    font-weight: 450;
+    color: white;
+}
+
+.aboutMeContentDiv {
+    display: flex;
+    padding-right: 20%;
+    margin-top: 3%;
+}
+
+.aboutMeContentDiv p {
+    align-self: center;
+    padding-left: 7.5%;
+    font-size: 0.9em;
+    color: white;
+}
+
+.testimonialsDiv {
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+    margin-bottom: 5%;
+}
+
+.testimonialsDiv>div {
+    width: 100%;
+}
+
+.testimonialsHeaderDiv {
+    display: flex;
+    margin-bottom: 2.5%;
+}
+
+.testimonialsHeaderDiv>p {
+    padding-left: 5%;
+    font-size: 1.6em;
+    font-weight: 450;
+    color: white;
+}
+
+.testimonialsSubtitleDiv {
+    display: flex;
+    margin-bottom: 2.5%;
+}
+
+.testimonialsSubtitleDiv>p {
+    padding-left: 5%;
+    font-size: 0.9em;
+    color: white;
+}
+
+.testimonialsHolderDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 15em;
+}
+
+.testimonialItem {
+    min-height: 100%;
+    width: 42.5%;
+    background-color: #75727294;
+    border: 1px solid rgba(191, 187, 187, 0.737);
+    border-radius: 10px;
+    padding-top: 2.5%;
+}
+
+.testimonialItem:nth-child(2) {
+    margin-right: 2.5%;
+}
+
+.testimonialItem:nth-child(3) {
+    margin-left: 2.5%;
+}
+
+.testimonialItem>div {
+    width: 100%;
+}
+
+.testimonialTitleItemDiv {
+    display: flex;
+    margin-top: 3.5%;
+    height: 25%;
+}
+
+.testimonialPhotoItemDiv {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    height: 100%;
+    min-width: 20%;
+}
+
+.testimonialPhotoItemDiv>div {
+    align-self: center;
+    height: 3.5em;
+    width: 3.5em;
+    border-radius: 10px;
+    background-color: #75727294;
+}
+
+.testimonialNameItemDiv {
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    height: 100%;
+    width: 70%;
+}
+
+.testimonialNameItemDiv p {
+    align-self: center;
+    color: white;
+}
+
+.testimonialTextItem {
+    height: 69%;
+}
+
+.testimonialTextItem p {
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    font-size: 0.75em;
+    font-weight: 350;
+}
+
+.featuredProjects {
+    display: flex;
+    flex-direction: column;
+}
+
+.featuredProjects>div {
+    width: 100%;
+}
+
+.featuredProjectsTitle{
+    margin-bottom: 2.5%;
+}
+
+.featuredProjectsTitle p {
+    padding-left: 4.5%;
+    font-size: 1.6em;
+    font-weight: 450;
+    color: white;
+}
+
+.featuredProjectsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.featuredProjectsItem{
+    display: flex;
+    flex-direction: column;
+    min-height: 15em;
+    width: 42.5%;
+    background-color: #75727294;
+    border: 1px solid rgba(191, 187, 187, 0.737);
+    border-radius: 10px;
+}
+
+.featuredProjectsItem:nth-child(1){
+    margin-right: 2.5%;
+}
+
+.featuredProjectsItem:nth-child(2){
+    margin-left: 2.5%;
+}
+
+.featuredProjectsItemTitle{
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding: 1rem 5%;
+}
+
+.featuredProjectsItemTitle p{
+    align-self: center;
+    color: white;
+    font-size: 1.2em;
+
+}
+
+.featuredProjectsItemDescription{
+    height: 50%;
+    width: 100%;
+    margin-bottom: 5.5%;
+}
+
+.featuredProjectsItemDescription p{
+    font-size: 0.8em;
+    color: white;
+    font-weight: 350;
+    margin-left: 7.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+}
+
+.itemHorizontalLine{
+    height: 1%;
+    width: 90%;
+    margin-left: 5%;
+    border-top: 1.5px solid gray;
+
+}
+
+.featuredProjectsItemTags{
+    display: flex;
+    height: 29%;
+    width: 100%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.skillTag{
+    display: flex;
+    width: 4.5em;
+    height: 1.25em;
+    background-color: #726b6bd3;
+    border: 1px solid #3d3a3aaf;
+    border-radius: 5px;
+    margin-right: 2%;
+}
+
+.skillTag p {
+    color: white;
+    font-size: 0.6em;
+}
+
+.skillTagTitle{
+    display: flex;
+    justify-content: center;
+    height:100%;
+    width: 50%;
+}
+
+.skillTagTitle p{
+    align-self: center;
+    line-height: 1;
+}
+
+.skillTagImage {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 1.2em;
+    margin-right: 5%;
+}
+
+.skillTagImage img{
+    align-self: center;
+    max-width: 1em;
+    max-height: 1em;
+}
+
+
+.hoverTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 24.25%;
+    width: 100%;
+    padding-left: 2.5%;
+}
+
+.hoverTitle p{
+    color: white;
+    font-size: 1.7em;
+}
+
+.hoverLinkRow{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    gap: 5%;
+}
+
+.hoverLinkContainer {
+    display: flex;
+    align-self: center;
+    width: 30%;
+    border: 1px solid rgba(191, 187, 187, 0.737);
+    border-radius: 10px;
+    background-color: #75727294;
+    text-decoration: none;
+}
+
+.hoverLinkTitle {
+    display: flex;
+    justify-content: center;
+    width: 72.5%;
+}
+
+.hoverLinkTitle p{
+    align-self: center;
+    color: white;
+    font-size: 0.6em;
+}
+
+.hoverLinkPhoto {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 1.2em;
+    margin-left: 5%;
+}
+
+.hoverLinkPhoto img{
+    align-self: center;
+    max-width: 1em;
+}
+

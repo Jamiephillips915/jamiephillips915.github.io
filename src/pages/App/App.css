@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Inter";
+    src: url(jamie-phillips-portfolio\src\assets\Inter-VariableFont_opsz,wght.ttf)
+}
+
+@media (width <= 1300px){
+    .tabBox p{
+        font-size: 0.55em;
+    }
+}
+
+@media (width <= 1120px){
+    body{
+        font-size: 0.8em;
+    }
+}
+
+@media (width <= 900px){
+    body{
+        font-size: 0.65em;
+    }
+}
+
+@media (width <= 735px){
+    body{
+        font-size: 0.5em;
+    }
+}
+
+@media (width <= 579px){
+    body{
+        font-size: 0.4em;
+    }
+}
+
+@media (width <= 471px){
+    body{
+        font-size: 0.3em;
+    }
+}
+
+@media (width <= 400px){
+    body{
+        font-size: 0.15em;
+    }
+}
+
+/* .sideBarDiv::-webkit-scrollbar {
+    width: 3px;
+}
+
+.sideBarDiv::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.sideBarDiv::-webkit-scrollbar-track {
+    background-color: transparent;
+    margin-top: 10px;
+} */
+
+* {
+    font-family: Inter;
+}

@@ -1,0 +1,135 @@
+.experienceTitle {
+    display: flex;
+    min-height: 15%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.experienceTitle p {
+    position: relative;
+    left: 5%;
+    align-self: center;
+    font-size: 2.2em;
+    color: white;
+
+}
+
+.timelineTitle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 7.5%;
+    margin-bottom: 10%;
+}
+
+.timelineTitle p {
+    align-self: center;
+    font-size: 1.8em;
+    color: white;
+    padding-top: 5%;
+}
+
+.timelineContainer {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+
+.timelineRow {
+    display: flex;
+    width: 100%;
+}
+
+.timelineRow:nth-of-type(odd) .timelineMarker{
+    margin-left: calc(7.5% - 0.45em);
+}
+
+.timelineRow:nth-of-type(odd) .leaf{
+    margin-left: 2.5%;
+}
+
+.timelineRow:nth-of-type(even){
+    flex-direction: row-reverse;
+}
+
+.timelineRow:nth-of-type(even) .timelineMarker{
+    margin-right: calc(7.5% - 0.45em);
+}
+
+.timelineRow:nth-of-type(even) .leaf{
+    margin-right: 2.5%;
+}
+
+.timelineRow:not(:last-of-type){
+    margin-bottom: 5%;
+}
+
+.leaf {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    align-self: center;
+    width: 40%;
+    min-height: 100%;
+    border: 1px solid rgba(191, 187, 187, 0.737);
+    border-radius: 10px;
+    background-color: #75727294;
+}
+
+.leaf > div{
+    width: 100%;
+    height: fit-content;
+}
+
+.leafTitle {
+    margin-top: 2.5%;
+}
+
+.leafTitle p{
+    color: white;
+    font-size: 110%;
+    padding-left: 3.5%;
+}
+
+.leafSubtitle{
+    margin-top: 1.5%;
+}
+
+.leafSubtitle p{
+    color: lightgrey;
+    font-size: 0.75em;
+    padding-left: 3.5%;
+}
+
+.leafDescription {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+.leafDescription p {
+    color: white;
+    font-size: 0.65em;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+}
+
+.timelineMarker {
+    z-index: 1;
+    align-self: center;
+    flex-shrink: 0;
+    height: 0.9em;
+    width: 0.9em;
+    background-color: #e616c6;
+    border: 1px solid lightpink;
+    border-radius: 3px;
+}
+
+.timelineLine {
+    z-index: 0;
+    position: absolute;
+    justify-self: center;
+    top: 0;
+    height: 95%;
+    width: 0.25%;
+    background-color: white;
+}

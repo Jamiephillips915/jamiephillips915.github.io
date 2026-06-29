@@ -1,0 +1,104 @@
+.sideBarPhotoDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 2.5%;
+}
+
+.sideBarPhoto {
+    align-self: center;
+    height: 10em;
+    width: 10.5em;
+    border-radius: 10px;
+    background-color: #75727294;
+
+}
+
+.sideBarNameDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2.5%;
+}
+
+.sideBarName {
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #F0F2F5;
+    align-self: center;
+}
+
+.sideBarTitle {
+    font-size: 0.6em;
+    color: #94A3B8;
+    align-self: center;
+    text-align: center;
+}
+
+.sideBarSocialDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.sideBarSocialButtonsDiv {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 60%;
+}
+
+.sideBarSocialButtonsDiv>div {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+}
+
+.socialButton {
+    display: flex;
+    justify-content: center;
+    height: 2.25em;
+}
+
+
+.socialButton img{
+    align-self: center;
+    max-width: 2.25em;
+    max-height: 2.25em;
+}
+
+.sideBarButtonDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sideBarButtonDiv>div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.sideBarButtonDiv p {
+    align-self: center;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.sideBarButton {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 85%;
+    height: 1.85em;
+    border-radius: 10px;
+    background-color: #a1329097;
+    border: 1.5px solid #711f6597;
+    text-decoration: none;
+}
+
+.sideBarButton:active {
+    text-decoration: none;
+}

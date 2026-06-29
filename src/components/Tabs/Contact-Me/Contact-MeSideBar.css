@@ -1,0 +1,42 @@
+.contactSideBarTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.contactSideBarTitle p {
+    color: white;
+    font-size: 1.5em;
+}
+
+.horizontalLine {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 1%;
+    border-top: 1.25px solid lightgray;
+}
+
+#sideBarContactAlignment {
+    margin-left: 5%;
+    width: 90%;
+}
+
+.socialLinkContainer{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+
+}
+
+.socialLink{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.socialLink img{
+    align-self: center;
+    max-width: 3em;
+    max-height: 2.5em;
+}

@@ -1,0 +1,59 @@
+.experienceSideBarTitle{
+    align-items: center;
+    margin-top: 10%;
+}
+
+.experienceSideBarTitle p {
+    color: white;
+    margin-left: 7.5%;
+    font-size: 1.5em;
+}
+
+.horizontalLine {
+    margin-top: 5%;
+    height: 1%;
+    border-top: 1.25px solid lightgray;
+}
+
+#sideBarExperienceAlignment {
+    margin-left: 5%;
+    width: 90%;
+}
+
+.experienceCategoryTitle p {
+    margin-left: 7.5%;
+    color: white;
+    font-size: 1.1em;
+}
+
+.categoryContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 5%;
+    border-left: 0.75px solid grey;
+    border-right: 0.75px solid grey;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin-bottom: 5%;
+}
+
+.categoryButton{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 95%;
+    margin-bottom: 1%;
+    background-color: #a1329097;
+    border: 0.75px solid #711f6597;
+    border-radius: 10px;
+}
+
+.categoryButton p {
+    align-self: center;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 100;
+    cursor: pointer;
+}

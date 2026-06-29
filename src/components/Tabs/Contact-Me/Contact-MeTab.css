@@ -1,0 +1,53 @@
+.contactOverText {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.contactOverText p{
+    align-self: center;
+    color: white;
+    font-size: 1.7em;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 7.5%;
+    margin-bottom: 5%;
+}
+
+
+
+.contactEmailAddress {
+    align-self: center;
+    text-decoration: none;
+}
+
+.contactEmailAddress p{
+    color:#fb3edf;
+    font-size: 2em;
+}
+
+.contactEmailAddressSubtitle {
+    align-self: center;
+}
+
+.contactEmailAddressSubtitle p {
+    color: lightgray;
+    font-size: 0.7em;
+}
+
+.earthGif{
+    display: flex;
+    justify-content: center;
+}
+
+.earthGif img{
+    align-self: center;
+    max-width: 2.25em;
+    max-height: 2.25em;
+}
