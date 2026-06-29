@@ -9,17 +9,18 @@ import HTMLLogo from './HTML.png';
 import CSSLogo from './CSS.png';
 import MatplotlibLogo from './matplotlib.png';
 import GitLogo from './git.png';
+import AnalysisDoc from './fds-project-option-2.pdf';
 
-function FilterRenderer({ activeFilter, skilltags, title, description, Link, Github }) {
+function FilterRenderer({ activeFilter, skilltags, title, description, Link, Github, LinkInput }) {
     for (let i = 0; i < skilltags.length; i++) {
         if (activeFilter == skilltags[i]) {
             return (
-                <ProjectItem title={title} description={description} skilltags={skilltags} Link={Link} Github={Github} />
+                <ProjectItem title={title} description={description} skilltags={skilltags} Link={Link} Github={Github} LinkInput={LinkInput} />
             );
         }
         else if (activeFilter === 'All') {
             return (
-                <ProjectItem title={title} description={description} skilltags={skilltags} Link={Link} Github={Github} />
+                <ProjectItem title={title} description={description} skilltags={skilltags} Link={Link} Github={Github} LinkInput={LinkInput} />
             );
         }
     }
@@ -27,7 +28,7 @@ function FilterRenderer({ activeFilter, skilltags, title, description, Link, Git
     return null;
 }
 
-function ProjectItem({ title, description, skilltags, Link, Github }) {
+function ProjectItem({ title, description, skilltags, Link, Github, LinkInput }) {
     const [hoverState, SetHover] = useState(false);
 
     const hoverTimeoutRef = useRef(null);
@@ -108,7 +109,7 @@ function ProjectItem({ title, description, skilltags, Link, Github }) {
                     {(() => {
                         if (Link === true) {
                             return (
-                                <a className='hoverLinkContainer' href=''>
+                                <a className='hoverLinkContainer' href={LinkInput}>
                                     <div className='hoverLinkPhoto'>
                                         <img src={LinkLogo} />
                                     </div>
@@ -157,7 +158,7 @@ function ProjectItem({ title, description, skilltags, Link, Github }) {
 
 function ProjectsTab({ activeFilter, SetActiveFilter }) {
     const projectObjects = [
-        { title: "Edinburgh Digitisation Analysis", description: "Built a geospatial pipeline to process 3,700+ longitudinal data points using Pandas and GeoPandas. Utilized piecewise regression to model structural contraction trends, uncovering a 3x acceleration in digital banking shifts.", skillTags: ['Python', 'Matplotlib', 'Pandas', 2026], Link: true, Github: false },
+        { title: "Edinburgh Digitisation Analysis", description: "Built a geospatial pipeline to process 3,700+ longitudinal data points using Pandas and GeoPandas. Utilized piecewise regression to model structural contraction trends, uncovering a 3x acceleration in digital banking shifts.", skillTags: ['Python', 'Matplotlib', 'Pandas', 2026], Link: true, Github: false, LinkInput: AnalysisDoc},
     ]
 
     return (
@@ -170,7 +171,7 @@ function ProjectsTab({ activeFilter, SetActiveFilter }) {
                     <div className='projectsRow'>
                         {projectObjects.map((items) => {
                             return (
-                                <FilterRenderer activeFilter={activeFilter} title={items.title} description={items.description} skilltags={items.skillTags} Link={items.Link} Github={items.Github} />
+                                <FilterRenderer activeFilter={activeFilter} title={items.title} description={items.description} skilltags={items.skillTags} Link={items.Link} Github={items.Github} LinkInput={items.LinkInput} />
                             );
                         })}
                     </div>
