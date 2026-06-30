@@ -48,7 +48,10 @@
 @media (orientation: portrait){
     .windowDiv{
         height: 90vh;
-        margin: auto;
+        margin: 0;
+    }
+    .headerDiv{
+        height: 5vh;
     }
     .watermarkDiv p{
         position: absolute;

@@ -8,7 +8,7 @@ function HomePage() {
             <Background />
             
             <div style={{ display: "flex", flexDirection: "column" }}>
-                <div style={{ width: "100%", height: "10vh" }}></div>
+                <div className="headerDiv"></div>
 
                 <div style={{ display: "flex", width: "100%", height: "80vh" }}>
                     <div style={{ width: "10%", height: "100%" }}></div>
@@ -21,7 +21,7 @@ function HomePage() {
                 </div>
 
                 <div className="watermarkDiv">
-                    <p style={{color: "white", alignSelf: "center", fontSize: "0.5rem"}}>Made by Jamie Phillips</p>
+                    <p style={{color: "white", alignSelf: "center", fontSize: "0.5em"}}>Made by Jamie Phillips</p>
                 </div>
             </div>
         </div>
