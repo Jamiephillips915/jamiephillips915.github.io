@@ -277,29 +277,24 @@
 
 .skillTag{
     display: flex;
-    width: 4.5em;
-    height: 1.25em;
+    min-width: 33.33%;
+    max-height: 100%;
     background-color: #726b6bd3;
     border: 1px solid #3d3a3aaf;
     border-radius: 5px;
     margin-right: 2%;
 }
 
-.skillTag p {
-    color: white;
-    font-size: 0.6em;
-}
-
 .skillTagTitle{
     display: flex;
     justify-content: center;
-    height:100%;
-    width: 50%;
 }
 
 .skillTagTitle p{
     align-self: center;
+    color: white;
     line-height: 1;
+    font-size: 0.6em;
 }
 
 .skillTagImage {

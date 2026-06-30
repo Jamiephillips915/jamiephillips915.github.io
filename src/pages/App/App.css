@@ -48,12 +48,14 @@
 @media (orientation: portrait){
     .windowDiv{
         height: 90vh;
+        margin: auto;
     }
     .watermarkDiv p{
         position: absolute;
         bottom: 5px;
     }
 }
+
 
 /* .sideBarDiv::-webkit-scrollbar {
     width: 3px;
