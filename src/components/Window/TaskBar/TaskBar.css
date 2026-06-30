@@ -1,8 +1,7 @@
 .taskBarDiv {
-    min-height: fit-content;
+    min-height: 2em;
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
-    border-style: inline;
     display: flex;
     justify-content: space-between;
     background-color: #3d3a3aaf;
@@ -17,6 +16,8 @@
     display: flex;
     gap: 2em;
     margin-left: 2.5%;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 .tabBox {
@@ -91,10 +92,10 @@
 }
 
 .tabButtonsDiv {
-    width: 10%;
-    border-top-right-radius: 7px;
+    min-width: 10%;
     display: flex;
     margin-left: auto;
+    flex-shrink: 0;
 }
 
 .tabButtonsDiv>a {
@@ -103,6 +104,11 @@
     display: flex;
     justify-content: center;
     color: white;
+}
+
+.tabButtonsDiv p{
+    align-self: center;
+    text-align: center;
 }
 
 .exitButton {
