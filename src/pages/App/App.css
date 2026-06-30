@@ -86,7 +86,7 @@
     }
 }
 
-@media (orientation: portrait) and (width <= 4415px){
+@media (orientation: portrait) and (width <= 441px){
     body{
         font-size: 0.35em;
     }
