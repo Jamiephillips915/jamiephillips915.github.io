@@ -62,20 +62,35 @@
     }
 }
 
-
-/* .sideBarDiv::-webkit-scrollbar {
-    width: 3px;
+@media (orientation: portrait) and (width <= 800px){
+    body{
+        font-size: 0.6em;
+    }
 }
 
-.sideBarDiv::-webkit-scrollbar-thumb {
-    background-color: gray;
-    border-radius: 15px;
+@media (orientation: portrait) and (width <= 671px){
+    body{
+        font-size: 0.525em;
+    }
 }
 
-.sideBarDiv::-webkit-scrollbar-track {
-    background-color: transparent;
-    margin-top: 10px;
-} */
+@media (orientation: portrait) and (width <= 589px){
+    body{
+        font-size: 0.45em;
+    }
+}
+
+@media (orientation: portrait) and (width <= 500px){
+    body{
+        font-size: 0.4em;
+    }
+}
+
+@media (orientation: portrait) and (width <= 4415px){
+    body{
+        font-size: 0.35em;
+    }
+}
 
 * {
     font-family: Inter;
