@@ -10,7 +10,7 @@ function HomePage() {
             <div style={{ display: "flex", flexDirection: "column" }}>
                 <div className="headerDiv"></div>
 
-                <div style={{ display: "flex", width: "100%", height: "80vh" }}>
+                <div style={{ display: "flex", width: "100%", height: "80vh", alignItems: "center"}}>
                     <div style={{ width: "10%", height: "100%" }}></div>
 
                     <Window>
