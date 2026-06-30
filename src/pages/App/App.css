@@ -19,6 +19,9 @@
     body{
         font-size: 0.65em;
     }
+    .timelineLine{
+        width: 1px;
+    }
 }
 
 @media (width <= 735px){

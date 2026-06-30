@@ -129,7 +129,7 @@
     position: absolute;
     justify-self: center;
     top: 0;
-    height: 95%;
-    width: 0.25%;
+    height: 100%;
+    width: 2px;
     background-color: white;
 }

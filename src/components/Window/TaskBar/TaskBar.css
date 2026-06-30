@@ -6,7 +6,11 @@
     justify-content: space-between;
     background-color: #3d3a3aaf;
     border: 1px solid white;
-    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.taskBarDiv::-webkit-scrollbar {
+    display: none;
 }
 
 .taskBarDiv > *{
