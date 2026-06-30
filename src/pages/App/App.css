@@ -97,7 +97,7 @@
 
 @supports (hanging-punctuation: first) and (font: -apple-system-body) and (-webkit-appearance: none) {
     .timelineLine {
-        margin-left: calc(50% - 1px);
+        margin-left: 50%;
     }
 }
 
