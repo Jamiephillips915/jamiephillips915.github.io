@@ -3,92 +3,101 @@
     src: url(../../assets/Inter-VariableFont_opsz\,wght.ttf) format("truetype");
 }
 
-@media (width <= 1300px){
-    .tabBox p{
+@media (width <=1300px) {
+    .tabBox p {
         font-size: 0.55em;
     }
 }
 
-@media (width <= 1120px){
-    body{
+@media (width <=1120px) {
+    body {
         font-size: 0.8em;
     }
 }
 
-@media (width <= 900px){
-    body{
+@media (width <=900px) {
+    body {
         font-size: 0.65em;
     }
-    .timelineLine{
+
+    .timelineLine {
         width: 1px;
     }
 }
 
-@media (width <= 735px){
-    body{
+@media (width <=735px) {
+    body {
         font-size: 0.5em;
     }
 }
 
-@media (width <= 579px){
-    body{
+@media (width <=579px) {
+    body {
         font-size: 0.4em;
     }
 }
 
-@media (width <= 471px){
-    body{
+@media (width <=471px) {
+    body {
         font-size: 0.3em;
     }
 }
 
-@media (width <= 400px){
-    body{
+@media (width <=400px) {
+    body {
         font-size: 0.15em;
     }
 }
 
-@media (orientation: portrait){
-    .windowDiv{
+@media (orientation: portrait) {
+    .windowDiv {
         height: 90vh;
         margin: 0;
     }
-    .headerDiv{
+
+    .headerDiv {
         height: 5vh;
     }
-    .watermarkDiv p{
+
+    .watermarkDiv p {
         position: absolute;
         bottom: 5px;
     }
 }
 
-@media (orientation: portrait) and (width <= 800px){
-    body{
+@media (orientation: portrait) and (width <=800px) {
+    body {
         font-size: 0.6em;
     }
 }
 
-@media (orientation: portrait) and (width <= 671px){
-    body{
+@media (orientation: portrait) and (width <=671px) {
+    body {
         font-size: 0.525em;
     }
 }
 
-@media (orientation: portrait) and (width <= 589px){
-    body{
+@media (orientation: portrait) and (width <=589px) {
+    body {
         font-size: 0.45em;
     }
 }
 
-@media (orientation: portrait) and (width <= 500px){
-    body{
+@media (orientation: portrait) and (width <=500px) {
+    body {
         font-size: 0.4em;
     }
 }
 
-@media (orientation: portrait) and (width <= 441px){
-    body{
+@media (orientation: portrait) and (width <=441px) {
+    body {
         font-size: 0.35em;
+    }
+}
+
+@supports (hanging-punctuation: first) and (font: -apple-system-body) and (-webkit-appearance: none) {
+    .timelineLine {
+        margin-left: calc(50% - 1px);
     }
 }
 
