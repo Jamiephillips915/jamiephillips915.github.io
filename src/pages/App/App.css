@@ -45,6 +45,16 @@
     }
 }
 
+@media (orientation: portrait){
+    .windowDiv{
+        height: 90vh;
+    }
+
+    body{
+        font-size: auto;
+    }
+}
+
 /* .sideBarDiv::-webkit-scrollbar {
     width: 3px;
 }

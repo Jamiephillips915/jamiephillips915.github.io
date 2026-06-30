@@ -28,6 +28,7 @@
     text-decoration: none;
     min-height: 1.4em;
     min-width: max(5vw, 8em);
+    flex-shrink: 0;
 }
 
 .tabBox:active{
@@ -93,7 +94,7 @@
     width: 10%;
     border-top-right-radius: 7px;
     display: flex;
-    margin-left: max(auto, 50px);
+    margin-left: auto;
 }
 
 .tabButtonsDiv>a {

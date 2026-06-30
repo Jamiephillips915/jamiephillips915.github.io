@@ -4,10 +4,18 @@
   box-sizing: border-box;
 }
 
-body {
+html, body{
+  width: 100%;
   min-height: 100vh;
+  min-height: 100dvh;
+}
+
+body {
+  min-height: 100dvh;
   background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
   overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .stars {

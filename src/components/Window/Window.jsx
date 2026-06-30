@@ -75,19 +75,17 @@ function Window() {
             <div className="taskBarDiv">
                 <div className="tabsDiv">
                     {tabs.map((tab) => (
-                        <>
-                            <a key={tab} href="#" className={`tabBox ${activeScreen === tab ? 'active' : ""}`} onClick={(e) => { e.preventDefault(); SetScreen(tab); ChangeTimeline('Education'); document.getElementById('contentDiv').scrollTop = 0; }}>
-                                <div className="activeTabDiv">
-                                    <div></div>
-                                </div>
-                                <div className="tabNameDiv">
-                                    <p>{tab}</p>
-                                </div>
-                                <div className="tabExitDiv">
-                                    <p>&#x2715;</p>
-                                </div>
-                            </a>
-                        </>
+                        <a key={tab} href="#" className={`tabBox ${activeScreen === tab ? 'active' : ""}`} onClick={(e) => { e.preventDefault(); SetScreen(tab); ChangeTimeline('Education'); document.getElementById('contentDiv').scrollTop = 0; }}>
+                            <div className="activeTabDiv">
+                                <div></div>
+                            </div>
+                            <div className="tabNameDiv">
+                                <p>{tab}</p>
+                            </div>
+                            <div className="tabExitDiv">
+                                <p>&#x2715;</p>
+                            </div>
+                        </a>
                     ))}
                 </div>
                 <div className="tabButtonsDiv">

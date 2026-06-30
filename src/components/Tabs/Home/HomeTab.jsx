@@ -169,7 +169,7 @@ function HomeTab() {
                     </div>
                     <div className="testimonialsSubtitleDiv">
                         <p>
-                            Don't just take my word alone for my competancy, here are some Testimonies:
+                            Don't just take my word alone for my competency, here are some Testimonies:
                         </p>
                     </div>
                     <div className="testimonialsHolderDiv">
