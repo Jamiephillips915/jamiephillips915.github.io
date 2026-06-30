@@ -49,10 +49,6 @@
     .windowDiv{
         height: 90vh;
     }
-
-    body{
-        font-size: auto;
-    }
     .watermarkDiv p{
         position: absolute;
         bottom: 5px;
