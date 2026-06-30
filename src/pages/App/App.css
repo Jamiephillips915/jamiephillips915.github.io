@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Inter";
-    src: url(jamie-phillips-portfolio\src\assets\Inter-VariableFont_opsz,wght.ttf)
+    src: url(../../assets/Inter-VariableFont_opsz\,wght.ttf) format("truetype");
 }
 
 @media (width <= 1300px){
