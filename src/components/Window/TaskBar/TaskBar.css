@@ -102,11 +102,11 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     color: white;
 }
 
 .exitButton {
+    align-self: center;
     border-top-right-radius: 7px;
 }
 

@@ -53,6 +53,10 @@
     body{
         font-size: auto;
     }
+    .watermarkDiv p{
+        position: absolute;
+        bottom: 5px;
+    }
 }
 
 /* .sideBarDiv::-webkit-scrollbar {
